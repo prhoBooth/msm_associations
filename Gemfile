@@ -32,6 +32,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'sqlite3'
 
+gem "starter_generators", :git => "http://github.com/raghubetina/starter_generators.git"
+
 group :development, :test do
   gem "dotenv-rails"
   gem "factory_girl_rails"
